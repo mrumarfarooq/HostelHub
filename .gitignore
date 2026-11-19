@@ -1,0 +1,60 @@
+# ==========================================
+# HostelHub - Git Ignore
+# ==========================================
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Python packaging
+*.egg-info/
+build/
+dist/
+
+# Python testing and tooling
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# Django
+*.log
+local_settings.py
+media/
+staticfiles/
+
+# Local databases
+*.sqlite3
+*.sqlite3-journal
+
+# Node.js and frontend
+node_modules/
+frontend/dist/
+frontend/coverage/
+*.tsbuildinfo
+*.local
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
